@@ -1,0 +1,29 @@
+h3 {
+  color: black;
+}
+.layout {
+  width: 100%;
+
+h1 {
+  text-align: center;
+}
+
+  
+body {
+  background-color: lightblue;
+  font-family: 'Arial', sans-serif;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.layout {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
